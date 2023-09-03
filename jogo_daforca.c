@@ -114,7 +114,7 @@ int game(char palavra[]){
 			n = strcmp(amostra, teste);
 	
 			if(n == 0) {
-				printf("\nParabÈns vc acertou em %d tentativas\n", tentativas);
+				printf("\nParab√©ns vc acertou em %d tentativas\n", tentativas);
 				return 1;
 			}
 	
@@ -125,7 +125,7 @@ int game(char palavra[]){
 				return 0;
 			}
 		}else {
-			printf("Essa palavra n„o existe no dicion·rio");
+			printf("Essa palavra n√£o existe no dicion√°rio");
 		}	
 	}
 }
@@ -136,8 +136,8 @@ int main(){
     FILE*arquivo;
     
     printf("----------------------------------------\n");
-    printf("MACK-TERMOO: Jogo de advinhaÁ„o!\n");
-    printf("(Jogo feito por AntÙnio, Henrique e Joaquim.)\n");
+    printf("Jogo de advinha√ß√£o!\n");
+    printf("(Jogo feito Joaquim Rafael M. P. Perira)\n");
     printf("----------------------------------------\n");
 
 	palavra(arquivo);
